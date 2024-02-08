@@ -1,23 +1,35 @@
 .speech {
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 30px;
     color: black;
 }
 
 .direction {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 20px;
     color: black;
-    background-color: azure;
+    background-color:aliceblue;
+    border-radius: 1px;
+    display: block;
 }
 
 .direction:hover {
-    background-color: aquamarine;
+    background-color:blanchedalmond;
     color: blue;
+    
 }
 
 .HELENA {
     font-family: 'Courier New', Courier, monospace;
     font-style: italic;
     color: brown;
+    display: block;
+}
+
+.HELENA:hover{
+    text-shadow: 3px 3px 5px grey;
+    color: transparent;
+
 }
 
 .SEREBRAKOFF {
@@ -30,14 +42,52 @@
     border: 3px solid black;
     text-align: center;
     width: auto;
+    color: black;
 }
+
+tr:nth-child(even) {
+    background-color: lightgrey;
+  }
 
 .th{
     color: black;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 3px;
 }
 
 .td{
     color: chocolate;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 3px;
+}
+
+.ul{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: crimson;
+}
+
+.ul:navb-horizontal{
+
+    display: block;
+    background-color: grey;
+
+}
+
+.navbar{
+    width:20%;
+    background-color: cadetblue;
+    border: 20% ;
+}
+
+.navbar-a{
+    text-align: center;
+    padding:4%;
+    color: white;
+    font-size: small;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.navbar-a:hover{
+    background-color: crimson;
+    color: black;
 }
